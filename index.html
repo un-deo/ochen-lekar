@@ -120,7 +120,7 @@
 
     <header class="hero-section" style="user-select: none">
       <div class="container">
-        <h1 class="display-3 fw-bold">Добре дошли в очният кабинет</h1>
+        <h1 class="display-3 fw-bold">Добре дошли в очния кабинет</h1>
         <p class="lead">Модерна грижа за вашите очи</p>
         <a href="#location" class="btn btn-lg btn-outline-light mt-3"
           >Посетете ни днес</a
@@ -270,7 +270,7 @@
             var text = el.dataset.phone || el.textContent.trim();
             if (navigator.clipboard && navigator.clipboard.writeText) {
               navigator.clipboard.writeText(text).then(function () {
-                showFeedback(el, 'Телефона е копиран');
+                showFeedback(el, 'Телефонът е копиран');
               }, function () {
                 fallbackPrompt(text);
               });
